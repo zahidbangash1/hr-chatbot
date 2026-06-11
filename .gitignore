@@ -1,0 +1,12 @@
+.env
+chroma_db/
+logs/
+__pycache__/
+*.py[cod]
+.cache/
+sentence_transformers/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+src/temp.pdf

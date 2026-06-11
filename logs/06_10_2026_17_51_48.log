@@ -1,0 +1,6 @@
+[ 2026-06-10 17:51:48,900 ] 10 root - INFO - chunker.py module loaded successfully
+[ 2026-06-10 17:51:49,885 ] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2026-06-10 17:52:01,228 ] 149 tensorflow - WARNING - From C:\Users\Zahid\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[ 2026-06-10 17:52:02,624 ] 22 root - INFO - retriever.py module loaded successfully
+[ 2026-06-10 17:52:02,625 ] 18 root - INFO - chain.py module loaded successfully

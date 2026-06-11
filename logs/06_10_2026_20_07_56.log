@@ -1,0 +1,93 @@
+[ 2026-06-10 20:07:56,651 ] 10 root - INFO - chunker.py module loaded successfully
+[ 2026-06-10 20:08:03,862 ] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2026-06-10 20:08:19,054 ] 149 tensorflow - WARNING - From C:\Users\Zahid\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[ 2026-06-10 20:08:21,624 ] 22 root - INFO - retriever.py module loaded successfully
+[ 2026-06-10 20:08:21,689 ] 18 root - INFO - chain.py module loaded successfully
+[ 2026-06-10 20:08:21,690 ] 15 root - INFO - pipeline.py module loaded successfully
+[ 2026-06-10 20:08:21,691 ] 84 root - INFO - Starting pipeline test...
+[ 2026-06-10 20:08:21,691 ] 25 root - INFO - HRPipelineOrchestrator initialized | PDF: 'E:/HR_chatbot/src/hr_policy.pdf' | Model: 'qwen/qwen3-32b'
+[ 2026-06-10 20:08:21,691 ] 29 root - INFO - Pipeline initialization started...
+[ 2026-06-10 20:08:21,692 ] 35 root - INFO - Creating ThresholdSemanticChunker...
+[ 2026-06-10 20:08:21,692 ] 25 root - INFO - Initializing ThresholdSemanticChunker with model: 'all-MiniLM-L6-v2' and threshold: 0.6
+[ 2026-06-10 20:08:21,695 ] 219 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2026-06-10 20:08:21,695 ] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2026-06-10 20:08:21,705 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECC09940>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7ef6fe52-4e51-40ed-b584-ea8d538f737f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+[ 2026-06-10 20:08:21,706 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+[ 2026-06-10 20:08:22,709 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECA63750>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e2834fa7-7906-41ac-a72b-f95af5398b8c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+[ 2026-06-10 20:08:22,710 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+[ 2026-06-10 20:08:24,713 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECA63D90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 3c9b89fb-66b9-4186-930f-36b00fd8f884)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+[ 2026-06-10 20:08:24,714 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+[ 2026-06-10 20:08:40,770 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB4190>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b3882c0d-82b1-482f-ae36-ce1df8d5a752)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+[ 2026-06-10 20:08:40,771 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+[ 2026-06-10 20:08:48,774 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB4550>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 699f93b1-db61-46f6-a65d-30907d3970a5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+[ 2026-06-10 20:08:48,774 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+[ 2026-06-10 20:08:56,780 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB4910>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b3d2fb0b-3b32-42f4-b030-b56f597e5d3b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+[ 2026-06-10 20:08:56,798 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB51D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 28c44947-08aa-4c36-8458-3428e85e713a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:08:56,799 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+[ 2026-06-10 20:08:57,801 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB5590>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b95dfe4b-8b28-4b13-b1d6-8aa701d25967)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:08:57,801 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+[ 2026-06-10 20:08:59,804 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB5950>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a7c03c02-d7ea-4811-ace0-348196c25e5b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:08:59,804 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+[ 2026-06-10 20:09:03,807 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB5D10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b889c48a-5e88-4061-a87e-200d32e81187)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:03,808 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+[ 2026-06-10 20:09:11,813 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB60D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ea8d1ddd-b05f-4465-912b-c026d81ae993)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:11,813 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+[ 2026-06-10 20:09:31,846 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECCB6490>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 78400f2c-c297-4d8c-ba92-48b48ce1233d)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:31,879 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECA63B10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 705b212f-4863-4c5a-9013-cfdb0adcc81b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:31,879 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+[ 2026-06-10 20:09:32,882 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECA639D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 782c8c36-da39-4768-9368-44af37bf12e5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:32,883 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+[ 2026-06-10 20:09:34,886 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECA63750>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 5cf33134-8138-41b4-a93a-d96c74bc3ae7)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:34,886 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+[ 2026-06-10 20:09:43,925 ] 319 huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000223ECA62850>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e9280bd1-a030-4fd3-a843-366d39ab221e)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+[ 2026-06-10 20:09:43,926 ] 328 huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+[ 2026-06-10 20:09:57,934 ] 28 root - INFO - ThresholdSemanticChunker embedding model loaded successfully.
+[ 2026-06-10 20:09:57,935 ] 37 root - INFO - Creating SmartPDFProcessor...
+[ 2026-06-10 20:09:57,935 ] 39 root - INFO - Processing PDF: 'E:/HR_chatbot/src/hr_policy.pdf'...
+[ 2026-06-10 20:09:57,935 ] 79 root - INFO - Entered process_pdf method inside SmartPDFProcessor class
+[ 2026-06-10 20:09:57,935 ] 84 root - INFO - Invoking PyPDFLoader for path target: 'E:/HR_chatbot/src/hr_policy.pdf'
+[ 2026-06-10 20:09:58,416 ] 89 root - INFO - Loaded 4 raw pages from PDF. Beginning clean-and-chunk cycle.
+[ 2026-06-10 20:09:58,416 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 20:09:58,416 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 20:09:58,681 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 20:09:58,681 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 20:09:58,681 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 20:09:58,784 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 20:09:58,785 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 20:09:58,785 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 20:09:58,884 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 20:09:58,884 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 20:09:58,885 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 20:09:58,979 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 20:09:58,980 ] 118 root - INFO - Smart PDF Processing run finished successfully. Yielded 4 total documents.
+[ 2026-06-10 20:09:58,980 ] 41 root - INFO - PDF processed successfully. Total chunks: 4
+[ 2026-06-10 20:09:58,980 ] 44 root - INFO - Building advanced retriever...
+[ 2026-06-10 20:09:58,980 ] 27 root - INFO - Starting advanced retriever build process with 4 documents...
+[ 2026-06-10 20:09:58,980 ] 33 root - INFO - Initializing HuggingFaceEmbeddings (all-MiniLM-L6-v2)...
+[ 2026-06-10 20:09:58,983 ] 219 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2026-06-10 20:09:58,983 ] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[ 2026-06-10 20:10:04,958 ] 36 root - INFO - Creating Chroma vectorstore at './chroma_db' with collection 'hr_semantic_collection'...
+[ 2026-06-10 20:10:07,246 ] 45 root - INFO - Setting up BM25 Sparse Retriever...
+[ 2026-06-10 20:10:07,251 ] 49 root - INFO - Setting up Dense MMR Retriever...
+[ 2026-06-10 20:10:07,251 ] 55 root - INFO - Combining into Ensemble Retriever (Weights: BM25=0.3, Dense=0.7)...
+[ 2026-06-10 20:10:07,251 ] 62 root - INFO - Initializing Cross-Encoder Reranker (ms-marco-MiniLM-L-6-v2)...
+[ 2026-06-10 20:10:10,801 ] 228 sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+[ 2026-06-10 20:10:11,323 ] 66 root - INFO - Wrapping with ContextualCompressionRetriever...
+[ 2026-06-10 20:10:11,323 ] 72 root - INFO - Advanced hybrid retriever successfully built.
+[ 2026-06-10 20:10:11,324 ] 46 root - INFO - Advanced retriever built successfully.
+[ 2026-06-10 20:10:11,324 ] 49 root - INFO - Creating HR RAG chain with model: 'qwen/qwen3-32b'...
+[ 2026-06-10 20:10:11,324 ] 45 root - INFO - Starting initialization of HR RAG Chain using model: 'qwen/qwen3-32b'...
+[ 2026-06-10 20:10:11,324 ] 47 root - INFO - Initializing Groq LLM...
+[ 2026-06-10 20:10:12,994 ] 63 root - INFO - Configuring PromptTemplate...
+[ 2026-06-10 20:10:12,994 ] 66 root - INFO - Constructing LCEL chain mapping...
+[ 2026-06-10 20:10:12,995 ] 78 root - INFO - HR RAG Chain successfully built and ready for invocation.
+[ 2026-06-10 20:10:12,995 ] 51 root - INFO - HR RAG chain created successfully.
+[ 2026-06-10 20:10:12,995 ] 53 root - INFO - Pipeline initialization completed successfully.
+[ 2026-06-10 20:10:12,995 ] 97 root - INFO - Running test query: 'What is the leave policy?'
+[ 2026-06-10 20:10:12,995 ] 62 root - INFO - Question received: 'What is the leave policy?'
+[ 2026-06-10 20:10:12,995 ] 67 root - INFO - Invoking RAG chain...
+[ 2026-06-10 20:10:14,049 ] 25 root - INFO - Formatting 3 documents for context injection.
+[ 2026-06-10 20:10:15,229 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-10 20:10:15,273 ] 73 root - INFO - Response received from RAG chain successfully.
+[ 2026-06-10 20:10:15,273 ] 100 root - INFO - Pipeline test completed successfully.

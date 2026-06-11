@@ -1,0 +1,87 @@
+[ 2026-06-10 20:53:28,929 ] 10 root - INFO - chunker.py module loaded successfully
+[ 2026-06-10 20:53:33,246 ] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2026-06-10 20:53:44,376 ] 149 tensorflow - WARNING - From C:\Users\Zahid\anaconda3\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[ 2026-06-10 20:53:46,509 ] 149 tensorflow - WARNING - From C:\Users\Zahid\anaconda3\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+[ 2026-06-10 20:59:06,439 ] 22 root - INFO - retriever.py module loaded successfully
+[ 2026-06-10 21:02:03,958 ] 18 root - INFO - chain.py module loaded successfully
+[ 2026-06-10 21:02:03,959 ] 14 root - INFO - pipeline.py module loaded successfully
+[ 2026-06-10 21:02:11,371 ] 24 root - INFO - HRPipelineOrchestrator initialized | PDF: 'E:\HR_chatbot\src\hr_policy.pdf' | Model: 'qwen/qwen3-32b'
+[ 2026-06-10 21:02:11,371 ] 28 root - INFO - Pipeline initialization started...
+[ 2026-06-10 21:02:11,375 ] 56 root - ERROR - Pipeline initialization failed.
+[ 2026-06-10 21:04:03,293 ] 24 root - INFO - HRPipelineOrchestrator initialized | PDF: 'E:\HR_chatbot\src\hr_policy.pdf' | Model: 'qwen/qwen3-32b'
+[ 2026-06-10 21:04:03,293 ] 28 root - INFO - Pipeline initialization started...
+[ 2026-06-10 21:04:03,294 ] 56 root - ERROR - Pipeline initialization failed.
+[ 2026-06-10 21:04:47,503 ] 10 root - INFO - chunker.py module loaded successfully
+[ 2026-06-10 21:04:47,505 ] 22 root - INFO - retriever.py module loaded successfully
+[ 2026-06-10 21:04:47,506 ] 18 root - INFO - chain.py module loaded successfully
+[ 2026-06-10 21:04:47,506 ] 14 root - INFO - pipeline.py module loaded successfully
+[ 2026-06-10 21:04:47,509 ] 24 root - INFO - HRPipelineOrchestrator initialized | PDF: 'pdf/E:\HR_chatbot\src\hr_policy.pdf' | Model: 'qwen/qwen3-32b'
+[ 2026-06-10 21:04:47,509 ] 28 root - INFO - Pipeline initialization started...
+[ 2026-06-10 21:04:47,509 ] 56 root - ERROR - Pipeline initialization failed.
+[ 2026-06-10 21:04:54,160 ] 24 root - INFO - HRPipelineOrchestrator initialized | PDF: 'pdf/E:\HR_chatbot\src\hr_policy.pdf' | Model: 'qwen/qwen3-32b'
+[ 2026-06-10 21:04:54,160 ] 28 root - INFO - Pipeline initialization started...
+[ 2026-06-10 21:04:54,161 ] 56 root - ERROR - Pipeline initialization failed.
+[ 2026-06-10 21:06:00,777 ] 10 root - INFO - chunker.py module loaded successfully
+[ 2026-06-10 21:06:00,778 ] 22 root - INFO - retriever.py module loaded successfully
+[ 2026-06-10 21:06:00,779 ] 18 root - INFO - chain.py module loaded successfully
+[ 2026-06-10 21:06:00,779 ] 14 root - INFO - pipeline.py module loaded successfully
+[ 2026-06-10 21:06:03,514 ] 24 root - INFO - HRPipelineOrchestrator initialized | PDF: 'pdf/hr_policy.pdf' | Model: 'qwen/qwen3-32b'
+[ 2026-06-10 21:06:03,514 ] 28 root - INFO - Pipeline initialization started...
+[ 2026-06-10 21:06:03,514 ] 34 root - INFO - Creating ThresholdSemanticChunker...
+[ 2026-06-10 21:06:03,514 ] 25 root - INFO - Initializing ThresholdSemanticChunker with model: 'all-MiniLM-L6-v2' and threshold: 0.6
+[ 2026-06-10 21:06:03,520 ] 219 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2026-06-10 21:06:03,520 ] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+[ 2026-06-10 21:06:09,645 ] 28 root - INFO - ThresholdSemanticChunker embedding model loaded successfully.
+[ 2026-06-10 21:06:09,646 ] 36 root - INFO - Creating SmartPDFProcessor...
+[ 2026-06-10 21:06:09,646 ] 38 root - INFO - Processing PDF: 'pdf/hr_policy.pdf'...
+[ 2026-06-10 21:06:09,646 ] 79 root - INFO - Entered process_pdf method inside SmartPDFProcessor class
+[ 2026-06-10 21:06:09,647 ] 84 root - INFO - Invoking PyPDFLoader for path target: 'pdf/hr_policy.pdf'
+[ 2026-06-10 21:06:10,030 ] 89 root - INFO - Loaded 4 raw pages from PDF. Beginning clean-and-chunk cycle.
+[ 2026-06-10 21:06:10,031 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 21:06:10,031 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 21:06:10,126 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 21:06:10,127 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 21:06:10,127 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 21:06:10,184 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 21:06:10,184 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 21:06:10,184 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 21:06:10,245 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 21:06:10,245 ] 36 root - INFO - Executing split method in ThresholdSemanticChunker.
+[ 2026-06-10 21:06:10,245 ] 44 root - INFO - Generating semantic embeddings for 1 lines/sentences.
+[ 2026-06-10 21:06:10,309 ] 59 root - INFO - Successfully divided text into 1 structural chunks.
+[ 2026-06-10 21:06:10,310 ] 118 root - INFO - Smart PDF Processing run finished successfully. Yielded 4 total documents.
+[ 2026-06-10 21:06:10,310 ] 40 root - INFO - PDF processed successfully. Total chunks: 4
+[ 2026-06-10 21:06:10,310 ] 43 root - INFO - Building advanced retriever...
+[ 2026-06-10 21:06:10,310 ] 27 root - INFO - Starting advanced retriever build process with 4 documents...
+[ 2026-06-10 21:06:10,310 ] 33 root - INFO - Initializing HuggingFaceEmbeddings (all-MiniLM-L6-v2)...
+[ 2026-06-10 21:06:10,313 ] 219 sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+[ 2026-06-10 21:06:10,313 ] 227 sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[ 2026-06-10 21:06:15,574 ] 36 root - INFO - Creating Chroma vectorstore at './chroma_db' with collection 'hr_semantic_collection'...
+[ 2026-06-10 21:06:16,851 ] 45 root - INFO - Setting up BM25 Sparse Retriever...
+[ 2026-06-10 21:06:16,855 ] 49 root - INFO - Setting up Dense MMR Retriever...
+[ 2026-06-10 21:06:16,855 ] 55 root - INFO - Combining into Ensemble Retriever (Weights: BM25=0.3, Dense=0.7)...
+[ 2026-06-10 21:06:16,855 ] 62 root - INFO - Initializing Cross-Encoder Reranker (ms-marco-MiniLM-L-6-v2)...
+[ 2026-06-10 21:06:20,399 ] 228 sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+[ 2026-06-10 21:06:21,018 ] 66 root - INFO - Wrapping with ContextualCompressionRetriever...
+[ 2026-06-10 21:06:21,018 ] 72 root - INFO - Advanced hybrid retriever successfully built.
+[ 2026-06-10 21:06:21,018 ] 45 root - INFO - Advanced retriever built successfully.
+[ 2026-06-10 21:06:21,018 ] 48 root - INFO - Creating HR RAG chain with model: 'qwen/qwen3-32b'...
+[ 2026-06-10 21:06:21,019 ] 45 root - INFO - Starting initialization of HR RAG Chain using model: 'qwen/qwen3-32b'...
+[ 2026-06-10 21:06:21,019 ] 47 root - INFO - Initializing Groq LLM...
+[ 2026-06-10 21:06:21,984 ] 63 root - INFO - Configuring PromptTemplate...
+[ 2026-06-10 21:06:21,984 ] 66 root - INFO - Constructing LCEL chain mapping...
+[ 2026-06-10 21:06:21,985 ] 78 root - INFO - HR RAG Chain successfully built and ready for invocation.
+[ 2026-06-10 21:06:21,985 ] 50 root - INFO - HR RAG chain created successfully.
+[ 2026-06-10 21:06:21,985 ] 52 root - INFO - Pipeline initialization completed successfully.
+[ 2026-06-10 21:06:43,539 ] 61 root - INFO - Question received: 'what is attendance policy?'
+[ 2026-06-10 21:06:43,539 ] 66 root - INFO - Invoking RAG chain...
+[ 2026-06-10 21:06:43,856 ] 25 root - INFO - Formatting 3 documents for context injection.
+[ 2026-06-10 21:06:45,290 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-10 21:06:45,343 ] 72 root - INFO - Response received from RAG chain successfully.
+[ 2026-06-10 21:07:10,367 ] 61 root - INFO - Question received: 'what is this document about?'
+[ 2026-06-10 21:07:10,367 ] 66 root - INFO - Invoking RAG chain...
+[ 2026-06-10 21:07:10,719 ] 25 root - INFO - Formatting 3 documents for context injection.
+[ 2026-06-10 21:07:12,329 ] 1025 httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+[ 2026-06-10 21:07:12,334 ] 72 root - INFO - Response received from RAG chain successfully.

@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-core
+langchain-groq 
+langchain-huggingface
+chromadb 
+sentence-transformers 
+rank-bm25 
+pypdf
+python-dotenv
