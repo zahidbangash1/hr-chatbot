@@ -13,4 +13,4 @@ pypdf==5.1.0
 scikit-learn==1.6.1
 torch==2.5.1
 transformers==4.47.1
-tokenizers==0.20.3
+tokenizers==0.19.1
