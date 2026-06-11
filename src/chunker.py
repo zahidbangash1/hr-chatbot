@@ -4,8 +4,8 @@ import sys
 from dotenv import load_dotenv
 
 
-from src.exception import CustomException
-from src.logger import logging
+from exception import CustomException
+from logger import logging
 
 logging.info("chunker.py module loaded successfully")
 

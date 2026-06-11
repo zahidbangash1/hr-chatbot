@@ -11,9 +11,9 @@ from langchain_classic.retrievers.document_compressors import CrossEncoderRerank
 from langchain_community.cross_encoders import HuggingFaceCrossEncoder 
 
 
-from src.chunker import ThresholdSemanticChunker, SmartPDFProcessor
-from src.logger import logging
-from src.exception import CustomException
+from chunker import ThresholdSemanticChunker, SmartPDFProcessor
+from logger import logging
+from exception import CustomException
 
 # Load environment variables
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")

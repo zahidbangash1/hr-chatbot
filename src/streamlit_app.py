@@ -4,9 +4,9 @@ import sys
 import tempfile
 
 # Import your pipeline
-from src.pipeline import HRPipelineOrchestrator
-from src.exception import CustomException
-from src.logger import logging
+from pipeline import HRPipelineOrchestrator
+from exception import CustomException
+from logger import logging
 
 # -------------------------------
 # Page Config

@@ -2,11 +2,11 @@ import os
 import sys
 
 from dotenv import load_dotenv
-from src.chunker import ThresholdSemanticChunker, SmartPDFProcessor
-from src.retrievel import build_advanced_retriever
-from src.chain import create_hr_rag_chain
-from src.logger import logging
-from src.exception import CustomException
+from chunker import ThresholdSemanticChunker, SmartPDFProcessor
+from retrievel import build_advanced_retriever
+from chain import create_hr_rag_chain
+from logger import logging
+from exception import CustomException
 
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
 load_dotenv(env_path)

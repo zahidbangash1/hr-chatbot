@@ -5,11 +5,11 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_groq import ChatGroq
 
-from src.chunker import ThresholdSemanticChunker, SmartPDFProcessor
-from src.retrievel import build_advanced_retriever
+from chunker import ThresholdSemanticChunker, SmartPDFProcessor
+from retrievel import build_advanced_retriever
 
-from src.logger import logging
-from src.exception import CustomException
+from logger import logging
+from exception import CustomException
 
 from dotenv import load_dotenv
 env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
