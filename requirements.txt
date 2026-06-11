@@ -1,4 +1,5 @@
 streamlit==1.45.1
+torch==2.1.0+cpu
 langchain==0.3.25
 langchain-core==0.3.63
 langchain-community==0.3.24
